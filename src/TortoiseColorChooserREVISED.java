@@ -18,7 +18,7 @@ public static void main(String[] args) {
 	String answer = JOptionPane.showInputDialog("What Shape Do You Want? \nOptions: Square, Triangle, Pentagon \nMust Use Capitals for first Letter!!! ");
 	if (answer.equals("Triangle")) {
 		for (int i = 0; i < 3; i++) {	
-		EdwinBot.turn(360/);
+		EdwinBot.turn(360/9);
 		EdwinBot.move(Number);
 		}
 		EdwinBot.penUp();
@@ -26,9 +26,9 @@ public static void main(String[] args) {
 		}
 		
 	}
-	else {
-			JOptionPane.showMessageDialog(null, "Sorry, I Think You Misspelled Something \n -EdwinBot");
-	} 
+	//else {
+	//		JOptionPane.showMessageDialog(null, "Sorry, I Think You Misspelled Something \n -EdwinBot");
+	//} 
 	
 	
 	
@@ -37,4 +37,4 @@ public static void main(String[] args) {
 	
 	
  	}	
-}
+//}
