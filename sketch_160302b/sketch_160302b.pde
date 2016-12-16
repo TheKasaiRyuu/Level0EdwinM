@@ -1,5 +1,7 @@
+void setup(){
 size(1000, 1000);
-
+}
+void draw(){
 int side =1000;
 int otherside = 1000;
 for (int i= 0; i < 200; i= i + 30){
@@ -10,4 +12,5 @@ for (int i= 0; i < 200; i= i + 30){
 
 
 
+}
 }

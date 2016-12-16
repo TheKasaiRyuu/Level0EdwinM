@@ -10,6 +10,7 @@ void draw()
 {
   /*int randomX = random(200) + 100
   int randomY = random*/
+  noStroke();
   fill(255,255,255);
   ellipse(250, 250, 100, 100);
   ellipse(500, 250, 100, 100);
